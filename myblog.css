@@ -1,0 +1,122 @@
+
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: orange;
+    
+    }
+    
+    header {
+    
+    background-color: rgba(255, 166, 0, 0.87);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+color: #fff;
+    
+    padding: 20px;
+    
+    }
+    
+    nav {
+    
+    text-align: center;
+    
+    }
+    
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav li {
+        margin: 0 10px;
+        list-style: none;
+        margin: 10px;
+        text-transform: uppercase;
+        box-sizing: border-box;
+        font-family: Arial;
+        padding: 20px;
+        display: inline-block; 
+        color: #555;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+        transition: color 0.2s; 
+    }
+    
+     a:link,a:visited{
+        color:whitesmoke;
+        background-color:rgba(255, 0, 0, 0.747) ;
+        padding: 10px 15px;
+        text-decoration:none;
+        border-radius: 4px;
+        align-self: center;
+        }
+    
+    nav a:hover {
+        color: #f00;
+    }
+    
+    nav ul li a:hover {
+    
+    background-color: #555;
+    
+    }
+    
+    main {
+    
+    padding: 20px;
+    height: 520px;
+    text-align: center;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+    }
+    
+    footer {
+    
+    background-color: #333;
+    
+    color: #fff;
+    
+    padding: 10px;
+    
+    text-align: center;
+    
+    }
+   
+    
+    .read-more {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #f00;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 3px;
+
+    }
+    
+    .read-more:hover {
+        background-color: #ff4d4d;
+    }
+    h2{
+        color: blue;
+    }
+    .social-media{
+    color:whitesmoke;
+    padding: 10px 15px;
+    text-decoration:none;
+    border-radius: 4px;
+    align-self: center;
+justify-content: space-between;
+}
+
+
